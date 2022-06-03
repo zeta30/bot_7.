@@ -1,0 +1,101 @@
+📑𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐝𝐞 𝐜𝐨𝐦𝐨 𝐮𝐬𝐚𝐫 𝐥𝐨𝐬 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐲 𝐩𝐚𝐫𝐚 𝐪𝐮𝐞 𝐬𝐢𝐫𝐯𝐞 𝐜𝐚𝐝𝐚 𝐮𝐧𝐨 𝐝𝐞 𝐞𝐥𝐥𝐨𝐬.
+--------------------
+🔆Comando para revisar nuestra configuración de Usuario.
+
+/myuser
+--------------------
+🔆Comando para configurar Usuario y Contraseña
+
+✅Se usa pasando el usuario luego una coma y unido la contraseña
+
+/account Usuario,Contraseña
+--------------------
+🔆Comando para establecer el Host del moodle o la nube
+
+✅Se usa pasando la url del Host detrás del comando.
+
+/host https://eduvirtual.uho.edu.cu/
+--------------------
+🔆Comando para configurar el Repo ID de el host
+
+✅Se usa pasando el id detrás del comando, el id va del número 2 al 6
+
+/repo 4
+--------------------
+🔆Comando Para cambiar a modo Nube.
+
+✅Se usa pasaneo detras del comando la palabra cloud (Esto es pa subir a Nexcloud) o moodle (Esto es para subir a las moodle).
+
+/cloud cloud
+      O
+/cloud moodle
+--------------------
+🔆Comando para establecer a que carpeta de la nube se subira.
+
+✅Se usa pasando el nombre del directorio detrás del comando (Este comando se utiliza solo en Nexcloud).
+
+/dir videos
+--------------------
+🔆Comando para configurar que tipo de subida a moodle.
+
+✅Existen 4 maneras las ultimas 3 suben al mismo lado pero hay nubes que no funcionan con una pero si con la otra.
+
+/uptype evidence
+
+/uptype draft
+/uptype blog  
+/uptype calendar
+--------------------
+🔆Comando para establecer proxy en el Bot.
+
+✅Se usa pasando el proxy claramente encriptado detrás del comando.
+
+/proxy socks5://SPEEDUPLOADERSERVICEXXXWTFDEV
+--------------------
+🔆Comando para eliminar el proxy que tienes activo en el Bot
+
+/off_proxy
+--------------------
+🔆Comando para establecer el tamaño maximo por archivos.
+🔅Este comando sirve cuando su nube por ejemplo es de 50 mb por archivo y usted quiere subir algo de 200 MiB pues el Bot parte el archivo en partes de 50 MiB y los sube.
+
+✅Se usa pasando un número detrás del comando
+
+/zip 50
+--------------------
+🔆Comando para ver lo subido a la nube
+
+/files
+--------------------
+🔆Comando para activar el token de la nube, solo sirve en las nube que tienen el token disponible.
+
+/toke_on
+--------------------
+🔆Comando para desactivar el token de la nube.
+
+/token_off
+--------------------
+🔆Comando para activar los enlaces xdlink.
+
+/xdlink_on
+--------------------
+🔆Comando para desactivar los enlaces xdlink.
+
+/xdlink_off
+--------------------
+🔆Comando para encriptar.
+
+✅Se usa pasaneo detras del comando lo que desea encriptar.
+
+/crypt 
+--------------------
+🔆Comando para desencriptar.
+
+✅Se usa pasaneo detras del comando lo que desea desencriptar.
+
+/decrypt
+--------------------
+🎩Desarrollador del bot: @xXxWTF_Dev
+🖋Diseñador del bot: @Jose_752
+
+𝐅𝐢𝐧😝
