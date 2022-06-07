@@ -87,8 +87,7 @@ def processUploadFiles(filename,filesize,files,update,bot,message,thread=None,jd
                     	xdlink = True
                     while resp is None:
                           if user_info['uploadtype'] == 'evidence':
-                             fileid,resp = client.upload_file(f,evidence,fileid,progressfunc=uploadFile,args=(bot,message,originalfile,thread),token=token,xdlink=xdlink)
-                             draftlist.append(resp)
+                             fileid,resp = client.upload_file(f,evidence,fileid,progressfunc=uploadFile,args=(bot,message,originalfile,thread),token=token,xdlink=xdlink)        
                           if user_info['uploadtype'] == 'draft':
                              fileid,resp = client.upload_file_draft(f,progressfunc=uploadFile,args=(bot,message,originalfile,thread),token=token,xdlink=xdlink)
                              draftlist.append(resp)
